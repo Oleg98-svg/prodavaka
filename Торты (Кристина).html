@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сake Shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: #fff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Цвет фона в случае, если изображение не загрузится */
+            background-image: url('https://img.freepik.com/free-photo/spectrum-flashes-coloured-light_23-2151792456.jpg'); /* Укажите путь к вашему изображению */
+            background-size: cover; /* Изображение будет масштабироваться, чтобы заполнить весь фон */
+            background-position: center; /* Центрирует изображение */
+            background-repeat: no-repeat; /* Не повторяет изображение, если оно меньше размера экрана */
+            background-image: image();
+        }
+
+        header {
+            background-color: #d70fa8;
+            text-align: center;
+            padding: 5px 10px;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+        }
+        .logo {
+            height: 90px;
+            width: 90px;
+            margin-left: 20px;
+        }
+        header a{
+            color: #fff;
+            margin-left: 12px;
+            margin-right: 12px;
+            font-size: 22px;
+            font-family: Arial, sans-serif !important;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+            
+        }
+        .container1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+            
+        }
+        .box {
+            background-color: #ffffff;
+            width: 450px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .box1 img {
+            width: 95%;
+            height: 390px;
+            border-radius: 10px;
+        }
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #db8989;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        /* Стили для боксов */
+        .left, .right {
+            display: flex;
+            flex-direction: column;
+            gap: 220px;
+        }
+        .center {
+            width: 800px; /* Центральный бокс увеличен */
+            height: 460px;   
+        }
+        footer {
+            background-color: #d70fa8;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Настройки для всей страницы */
+        .layout {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 2000px;
+            margin-bottom: 40px; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html"><img class="logo" src="imgs/PRODAVAKA_3000x3000.png" alt="Лого"></a>
+    <h1 style="margin-left: 190px;">Сake Shop</h1>
+    <nav class="nav_btns">
+        <a href="index.html">Home</a>
+        <a href="Aboutus.html">About us</a>
+        <a href="registration.html">Registration</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="layout">
+        <div class="left">
+            <div class="box">
+                
+                <img src="https://static.tildacdn.com/stor6634-6665-4566-b236-396338353433/32250087.png" alt="Торт Ягодная элегантность">
+                <a href="https://cukierniamiodowa.eu/ru-birthday-tort/tproduct/733274422212-tort-yagodnaya-elegantnost">
+                    <button class="buy-button">Buy now</button>
+                </a>
+            </div>
+            <div class="box">
+                <img src="https://static.tildacdn.com/stor3461-3339-4131-b163-303134383837/26075266.png" alt="Торт на День Святого Валентина">
+                <a href="https://cukierniamiodowa.eu/ru-birthday-tort/tproduct/406138746822-tort-na-den-svyatogo-valentina">
+                    <button class="buy-button">Buy now</button>
+                </a>
+            </div>
+        
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <img src="https://static.tildacdn.com/stor6632-6662-4262-a636-613934613562/98390794.png" alt="BENTO">
+                <a href="https://cukierniamiodowa.eu/ru-beneto-tort/tproduct/324704280252-bento">
+                    <button class="buy-button">Buy now</button>
+                </a>
+            </div>
+            <div class="box">
+                <img src="https://static.tildacdn.com/stor6136-3163-4765-b731-643861613666/31197173.png" alt="Торт с котиком">
+                <a href="https://cukierniamiodowa.eu/ru-birthday-tort/tproduct/429850983622-tort-s-kotikom">
+                    <button class="buy-button">Buy now</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 All rights reserved</p>
+</footer>
+
+</body>
+</html>

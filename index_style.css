@@ -1,0 +1,156 @@
+* {
+    text-decoration: none;
+}
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #b0d0d3;
+}
+header {
+    background-color: #758B8C;
+    padding: 5px 10px;
+    padding-right: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.logo {
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+}
+.nav_btns {
+    font-size: 22px;
+    color: #222;
+}
+#menu-btn {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#menu-btn:hover {
+    background-color: #333;
+}
+.slogan {
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    margin-left: 32px;
+    font-family: 'Cinzel', serif;
+}
+main {
+    display: flex;
+    flex: 1;
+}
+section {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    width: 400px;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    font-family: monospace;
+    border: 2px solid #758B8C;
+}
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    width: 100%;
+}
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #758B8C;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.carousel .prev {
+    left: 10px;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+}
+.carousel .next {
+    right: 10px;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+}
+.carousel .prev:hover {
+    left: 10px;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.carousel .next:hover {
+    right: 10px;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.box button {
+    background-color: #758B8C;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 13px;
+    cursor: pointer;
+    width: 40%;
+}
+.box button:hover {
+    background-color: #758B8C;
+    transition: 0.5s;
+}
+footer {
+    background-color: #758B8C;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    font-size: 14px;
+    padding: 10px;
+    position: relative;
+}
+.social_media_logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+.content {
+    justify-content: space-evenly;
+    display: flex;
+}
