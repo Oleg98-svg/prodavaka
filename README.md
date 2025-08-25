@@ -54,7 +54,7 @@ QA-инженеры — тестирование и контроль качес�
 
 📎 Ссылки и ресурсы
 
-[Google Drive](url) с презентацией и документами
+Google Drive[https://docs.google.com/spreadsheets/d/1VAtnIbnlMPsIIS0R-l7mVny9KNQosNRG/edit?usp=sharing&ouid=115560211216246530723&rtpof=true&sd=true](url) с презентацией и документами
 
 
 Тест-план: specs/TestPlan.md (или по ссылке)
