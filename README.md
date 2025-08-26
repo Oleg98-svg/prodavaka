@@ -67,7 +67,8 @@ QA Engineers — Testing and quality assurance
 
 📎 Links and Resources
 
-Google Drive
+📎 [Google Drive (список вопросов и материалов)](https://docs.google.com/spreadsheets/d/1VAtnIbnlMPsIIS0R-l7mVny9KNQosNRG/edit?usp=drive_link&ouid=115560211216246530723&rtpof=true&sd=true)
+
 
 Test Plan: specs/TestPlan.md (or via provided link)
 
