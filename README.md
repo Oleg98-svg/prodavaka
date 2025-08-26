@@ -35,7 +35,7 @@ imgs/                      # images
 Clone the Repository
 Clone the repository to your local machine:
 
-git clone https://github.com/your-username/prodavaka.git  
+git clone https://github.com/Oleg98-svg/prodavaka 
 cd prodavaka
 
 
