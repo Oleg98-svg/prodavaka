@@ -1,81 +1,73 @@
-# 🛒 Продавака — Prodavaka
+🛒 Prodavaka — Sales Assistant
+Prodavaka is a web platform designed to automate and simplify online sales processes. The site includes registration pages, company information, product catalogs, and offers user-friendly tools for customer interaction. The project focuses on creating an intuitive and responsive user interface that meets modern UX/UI standards.
 
-**Prodavaka** — это веб-платформа, разработанная для автоматизации и упрощения процессов онлайн-продаж. Сайт включает страницы регистрации, информации о компании, каталогов, и предоставляет удобные инструменты для взаимодействия с пользователями. Проект ориентирован на создание интуитивно понятного и адаптивного пользовательского интерфейса, соответствующего современным требованиям UX/UI.
+👤 More about me — Oleh Sytnyk on LinkedIn
 
-👤 Подробнее обо мне — Oleh Sytnyk в [LinkedIn](https://www.linkedin.com/in/oleh-sytnyk/)
+🎯 Project Goal
+To develop a functional, reliable, and cross-browser-compatible website with a well-structured architecture that is easy to scale and maintain.
 
-## 🎯 Цель проекта
+📁 Repository Contents
 
-Разработка функционального, надёжного и кросс-браузерного сайта с удобной архитектурой, который легко масштабируется и поддерживается.
+imgs/                      # images  
+├─ 404.html                # error page  
+├─ Aboutus.html            # about the project / team  
+├─ Flowers.html            # flower compositions  
+├─ Flowers_style.css       # styles for Flowers page  
+├─ PRODAVAKA WEBSITE PRESENTA… # project presentation (PPT/Slides)  
+├─ README.md               # this file  
+├─ Shoes.html              # trendy footwear  
+├─ cars.html               # electric cars (current version)  
+├─ cars_orig.html          # early version of the cars page  
+├─ cars_style.css          # styles for car pages  
+├─ git                     # service file/folder (delete if unnecessary)  
+├─ homes.html              # luxury real estate  
+├─ index.html              # homepage  
+├─ index_style.css         # homepage styles  
+├─ island_shop.html        # island rentals  
+├─ island_shop_style.css   # island page styles  
+├─ registration.html       # registration/login  
+├─ shoes_style.css         # styles for Shoes page  
+└─ Торты (Кристина).html   # celebration cakes  
 
----
 
-## 📁 Содержание репозитория
+🚀 Getting Started with the Project
 
-- imgs/ # изображения
-├─ 404.html # страница ошибки
-├─ Aboutus.html # о проекте / команда
-├─ Flowers.html # цветочные композиции
-├─ Flowers_style.css # стили страницы Flowers
-├─ PRODAVAKA WEBSITE PRESENTA… # презентация проекта (PPT/Slides)
-├─ README.md # этот файл
-├─ Shoes.html # стильная обувь
-├─ cars.html # электромобили (актуальная версия)
-├─ cars_orig.html # ранняя версия страницы с авто
-├─ cars_style.css # стили страниц с авто
-├─ git # служебный файл/папка (если не нужен — удалить)
-├─ homes.html # роскошная недвижимость
-├─ index.html # главная страница
-├─ index_style.css # стили главной
-├─ island_shop.html # аренда островов
-├─ island_shop_style.css # стили страницы островов
-├─ registration.html # регистрация/вход
-├─ shoes_style.css # стили страницы Shoes
-└─ Торты (Кристина).html # праздничные торты
----
+Clone the Repository
+Clone the repository to your local machine:
 
-## 🚀 Как начать работу с проектом
-
-### 1. Клонирование репозитория
-
-Скопируйте репозиторий на локальный компьютер:
-
-```bash
-git clone https://github.com/your-username/prodavaka.git
+git clone https://github.com/your-username/prodavaka.git  
 cd prodavaka
 
-```
-Прочтите README.md для общего понимания.
 
-Перейдите в docs/ и specs/, чтобы ознакомиться с деталями реализации.
+Read README.md for a general overview.
 
-Ознакомьтесь с вкладом команды в team/.
+Check out docs/ and specs/ for implementation details.
 
-3. Внесение изменений
+Review team contributions in the team/ directory.
 
-Оформляйте предложения через Issues.
+Making Changes
 
-Работайте с кодом и документацией через Pull Requests.
+Submit suggestions via Issues.
 
-Соблюдайте структуру проекта и форматирование Markdown.
+Work on code and documentation via Pull Requests.
 
-👥 Команда проекта
+Follow project structure and Markdown formatting rules.
 
-Валерий — UI/UX и аналитика
+👥 Project Team
 
-Богдан — регистрация, About Us
+Valerii — UI/UX and analytics
 
-Крістіна, Олег — структура и логика
+Bohdan — Registration, About Us
 
-QA-инженеры — тестирование и контроль качества
+Kristina, Oleh — Structure and logic
 
-📎 Ссылки и ресурсы
+QA Engineers — Testing and quality assurance
 
-[Google Drive](https://docs.google.com/spreadsheets/d/1VAtnIbnlMPsIIS0R-l7mVny9KNQosNRG/edit?usp=sharing&ouid=115560211216246530723&rtpof=true&sd=true)
+📎 Links and Resources
 
+Google Drive
 
-Тест-план: specs/TestPlan.md (или по ссылке)
+Test Plan: specs/TestPlan.md (or via provided link)
 
-✅ Статус проекта
-
-📌 Ведётся активная фаза тестирования и документационного оформления. Все участники приглашаются к финальной ревизии.
+✅ Project Status
+📌 Active testing and documentation phase is in progress. All team members are invited to contribute to the final review.
